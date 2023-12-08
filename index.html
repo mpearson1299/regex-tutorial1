@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Regex Tutorial</title>
+</head>
+<body>
+  <header>
+    <h1>Regex Tutorial</h1>
+  </header>
+
+  <section>
+    <h2>Introduction</h2>
+    <p>Regular expressions (regex) are powerful tools for pattern matching and text manipulation. In this tutorial, you will learn the basics of regex and how to use it effectively in JavaScript.</p>
+  </section>
+
+  <section>
+    <h2>Summary</h2>
+    <p>The regex featured in this tutorial is a basic email validation regex. It can be used to check if an email address is valid or not.</p>
+  </section>
+
+  <section>
+    <h2>Table of Contents</h2>
+    <ul>
+      <li><a href="#section1">Component 1: Start anchor (^)</a></li>
+      <li><a href="#section2">Component 2: Domain name ([a-zA-Z0-9.-]+)</a></li>
+      <li><a href="#section3">Component 3: At symbol (@)</a></li>
+      <li><a href="#section4">Component 4: Local part ([a-zA-Z0-9._%+-]+)</a></li>
+      <li><a href="#section5">Component 5: Dot symbol (.)</a></li>
+      <li><a href="#section6">Component 6: Top-level domain ([a-zA-Z]{2,})</a></li>
+      <li><a href="#section7">Component 7: End anchor ($)</a></li>
+    </ul>
+  </section>
+
+  <section id="section1">
+    <h2>Component 1: Start anchor (^)</h2>
+    <p>This component indicates the start of the email address. It ensures that the matching pattern starts at the beginning of the string.</p>
+  </section>
+
+  <section id="section2">
+    <h2>Component 2: Domain name ([a-zA-Z0-9.-]+)</h2>
+    <p>This component matches the domain name part of the email address. It allows alphanumeric characters, hyphens, and dots.</p>
+  </section>
+
+  <section id="section3">
+    <h2>Component 3: At symbol (@)</h2>
+    <p>This component matches the at symbol in the email address, separating the local part and the domain name.</p>
+  </section>
+
+  <section id="section4">
+    <h2>Component 4: Local part ([a-zA-Z0-9._%+-]+)</h2>
+    <p>This component matches the local part of the email address. It allows alphanumeric characters, dots, underscores, percent signs, and plus/minus symbols.</p>
+  </section>
+
+  <section id="section5">
+    <h2>Component 5: Dot symbol (.)</h2>
+    <p>This component matches the dot symbol in the email address, separating the local part and the top-level domain.</p>
+  </section>
+
+  <section id="section6">
+    <h2>Component 6: Top-level domain ([a-zA-Z]{2,})</h2>
+    <p>This component matches the top-level domain part of the email address. It allows two or more alphabetical characters.</p>
+  </section>
+
+  <section id="section7">
+    <h2>Component 7: End anchor ($)</h2>
+    <p>This component indicates the end of the email address. It ensures that the matching pattern ends at the end of the string.</p>
+  </section>
+
+  <section>
+    <h2>About the Author</h2>
+    <p>This tutorial was written by John Doe, a passionate developer with expertise in regular expressions. You can find more of his work on his <a href="https://github.com/johndoe">GitHub profile</a>.</p>
+  </section>
+</body>
+</html>
